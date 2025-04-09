@@ -62,24 +62,14 @@ source install/local_setup.bash
 
 ## Usage
 
-### Launching the EKF Localization Node
+### Launching the EKF Localization Nodes using a launch file
 ```
-ros2 launch ekf_localization ekf_localization.launch.py
+ros2 launch my_launch_files ekf_launch.py
 ```
 
 ### Launching the SLAM Module
 ```
 ros2 launch ekf_localization slam.launch.py
-```
-
-### Running the Simulation
-```
-ros2 launch ekf_localization gazebo_sim.launch.py
-```
-
-### Visualizing Data with RViz2
-```
-ros2 run rviz2 rviz2 -d config/rviz_config.rviz
 ```
 
 ## Media
@@ -108,16 +98,6 @@ To help illustrate the functionality and setup of the system, the repository inc
 - Visualization Problems:  
   Ensure RViz config file is correctly loaded.
 
-## Contributing
-
-Contributions are welcome! Please:
-1. Fork the repository.
-2. Create a new branch.
-3. Push changes and open a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Contact
 
