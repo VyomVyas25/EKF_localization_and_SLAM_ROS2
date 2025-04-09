@@ -85,7 +85,6 @@ To help illustrate the functionality and setup of the system, the repository inc
   - ![EKF and SLAM Workflow](media/screenshot1.png)
 
   - ![RViz Visualization](media/screenshot2.png)  
-  - ![Simulation Setup](media/screenshot3.png)  
 
 - Demo Video:  
   - [Watch the Demo](media/demo_video.webm)
