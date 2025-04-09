@@ -1,1 +1,2 @@
-/home/vyom/ros2_ws/build/cpp_pubsub/ament_cmake_environment_hooks/local_setup.dsv
+source;share/cpp_pubsub/environment/ament_prefix_path.sh
+source;share/cpp_pubsub/environment/path.sh

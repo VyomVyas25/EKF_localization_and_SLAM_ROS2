@@ -13,6 +13,7 @@ setup(
         ('share/' + package_name + '/launch', [
     'launch/cylin_world.launch.py',
     'launch/ekf_launch.py',
+    'launch/ekf_launch_teleop.py',    
     
 ]),
     ],

@@ -5,7 +5,7 @@ def generate_launch_description():
     return LaunchDescription([
         # Command 1: Run reset_1
         ExecuteProcess(
-            cmd=['ros2', 'launch', 'turtlebot3_gazebo', 'cylin_world.launch.py'],
+            cmd=['ros2', 'launch', 'turtlebot3_gazebo', 'a_world.launch.py'],
             name='world_launch'
         ),
         # Command 2: Run reset_2
@@ -13,7 +13,7 @@ def generate_launch_description():
             period=3.0,  # Adjust delay if necessary
             actions=[
                 ExecuteProcess(
-                    cmd=['ros2', 'run', 'ekf', 'mapToCoords'],
+                    cmd=['ros2', 'run', 'py_pubsub', 'mapToCoords'],
                     name='map2coordinate'
                 )
             ]
@@ -23,7 +23,7 @@ def generate_launch_description():
             period=4.0,  # Adjust delay if necessary
             actions=[
                 ExecuteProcess(
-                    cmd=['ros2', 'run', 'ekf', 'localization'],
+                    cmd=['ros2', 'run', 'py_pubsub', 'localization'],
                     name='ekf_runner'
                 )
             ]
@@ -40,13 +40,13 @@ def generate_launch_description():
         ),
         
         TimerAction(
-            period=6.0,  # Adjust delay if necessary
-            actions=[
-                ExecuteProcess(
-                    cmd=['ros2', 'run', 'cpp_pubsub', 'autonode'],
-                    name='viz'
-                )
-            ]
-        ),
+	    period=6.0,
+	    actions=[
+		ExecuteProcess(
+		    cmd=['xterm', '-e', 'ros2 run turtlebot3_teleop teleop_keyboard'],
+		    name='viz2'
+		)
+	    ]
+	)
     ])
 
