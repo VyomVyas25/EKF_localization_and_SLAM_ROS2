@@ -82,9 +82,9 @@ ros2 run rviz2 rviz2 -d config/rviz_config.rviz
 To help illustrate the functionality and setup of the system, the repository includes several images and a demo video:
 
 - Screenshots:  
-  - ![EKF and SLAM Workflow](media/screenshot1.png)
+  - ![Original path and filtered path](media/screenshot1.png)
 
-  - ![RViz Visualization](media/screenshot2.png)  
+  - ![Error Ellipse Generation](media/screenshot2.png)  
 
 - Demo Video:  
   - [Watch the Demo](media/demo_video.webm)
