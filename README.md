@@ -1,2 +1,120 @@
-# EKF_localization_and_SLAM_ROS2
-This repository contains self-developed packages and nodes for EKF-based localization in ROS2. The code is designed to be modular and extensible. SLAM integration is currently under development.
+# EKF Localization and SLAM ROS2
+
+## Overview
+The EKF Localization and SLAM ROS2 repository provides an implementation of an Extended Kalman Filter (EKF) based localization and SLAM (Simultaneous Localization and Mapping) framework using ROS2. This project is designed as a modular and extendable codebase that leverages sensor fusion to accurately estimate the robot’s state and build maps of its environment.
+
+Key features of the project include:
+- EKF-based sensor fusion: Integrates various sensor inputs (e.g., odometry, IMU, LiDAR) using EKF for robust state estimation.
+- SLAM implementation: Offers a method for creating maps on-the-fly while localizing the robot in an unknown environment.
+- ROS2 integration: Leverages ROS2 for inter-process communications, with nodes well-structured for sensor data management, filter processing, and visualization.
+- Simulation support: Includes launch files for running simulations in environments like Gazebo, making it easier to test in a virtual world before real-world deployment.
+
+## Repository Structure
+```
+EKF_localization_and_SLAM_ROS2/
+├── src/
+├── launch/
+├── config/
+├── msgs/
+├── docs/
+├── media/
+│   ├── screenshot1.png
+│   ├── screenshot2.png
+│   ├── screenshot3.png
+│   └── demo_video.webm
+├── CMakeLists.txt
+└── package.xml
+```
+
+## Requirements
+- Operating System: Ubuntu 20.04 LTS or later (Ubuntu 22.04 LTS recommended)
+- ROS2 Distribution: Foxy, Galactic, Humble, or later (tested with Humble)
+- Programming Languages: C++ and Python
+- Dependencies:
+  - Eigen
+  - OpenCV
+  - ROS2 packages like sensor_msgs, nav_msgs
+
+## Installation
+
+1. Clone the Repository:
+```
+git clone https://github.com/VyomVyas25/EKF_localization_and_SLAM_ROS2.git
+cd EKF_localization_and_SLAM_ROS2
+```
+
+2. Install Dependencies:
+```
+sudo apt update
+sudo apt install ros-humble-eigen3-cmake-module ros-humble-<other-required-packages>
+```
+
+3. Build the Workspace:
+```
+colcon build --symlink-install
+source install/local_setup.bash
+```
+
+## Usage
+
+### Launching the EKF Localization Node
+```
+ros2 launch ekf_localization ekf_localization.launch.py
+```
+
+### Launching the SLAM Module
+```
+ros2 launch ekf_localization slam.launch.py
+```
+
+### Running the Simulation
+```
+ros2 launch ekf_localization gazebo_sim.launch.py
+```
+
+### Visualizing Data with RViz2
+```
+ros2 run rviz2 rviz2 -d config/rviz_config.rviz
+```
+
+## Media
+
+To help illustrate the functionality and setup of the system, the repository includes several images and a demo video:
+
+- Screenshots:  
+  - ![EKF and SLAM Workflow](media/screenshot1.png)
+
+  - ![RViz Visualization](media/screenshot2.png)  
+  - ![Simulation Setup](media/screenshot3.png)  
+
+- Demo Video:  
+  - [Watch the Demo](media/demo_video.webm)
+
+## Troubleshooting
+
+- Build Errors:  
+  ```
+  rm -rf build install log
+  colcon build --symlink-install
+  ```
+
+- Sensor Data Issues:  
+  Check sensor topics and configuration files.
+
+- Visualization Problems:  
+  Ensure RViz config file is correctly loaded.
+
+## Contributing
+
+Contributions are welcome! Please:
+1. Fork the repository.
+2. Create a new branch.
+3. Push changes and open a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Contact
+
+Open an issue on the GitHub repository or use repository communication channels.
