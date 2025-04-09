@@ -13,17 +13,22 @@ Key features of the project include:
 ```
 EKF_localization_and_SLAM_ROS2/
 ├── src/
-├── launch/
-├── config/
-├── msgs/
-├── docs/
+|   ├── my_launch_files/launch
+|   |   ├── cylin_world.launch.py
+|   |   ├── ekf_launch.py
+|   ├── py_pubsub/py_pubsub
+|   |   ├── EKF_localization.py
+|   |   ├── m2C.py
+|   |   ├── EKF_slam.py  
+|   ├── maps
+|   ├── worlds
+|   ├── cpp_pubsub
 ├── media/
 │   ├── screenshot1.png
 │   ├── screenshot2.png
 │   ├── screenshot3.png
 │   └── demo_video.webm
-├── CMakeLists.txt
-└── package.xml
+
 ```
 
 ## Requirements
