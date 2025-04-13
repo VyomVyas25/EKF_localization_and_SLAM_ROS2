@@ -1,0 +1,29 @@
+[1.437s] Invoking command in '/home/vyom/ros2_ws/src/py_pubsub': PYTHONPATH=/home/vyom/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vyom/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/vyom/ros2_ws/build/py_pubsub/build install --record /home/vyom/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed install_data
+[1.762s] running egg_info
+[1.762s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[1.768s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[1.768s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[1.768s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[1.769s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[1.770s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[1.771s] adding license file 'LICENSE'
+[1.772s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[1.772s] running build
+[1.772s] running build_py
+[1.772s] copying py_pubsub/Ground_det.py -> /home/vyom/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[1.773s] running install
+[1.773s] running install_lib
+[1.774s] copying /home/vyom/ros2_ws/build/py_pubsub/build/lib/py_pubsub/Ground_det.py -> /home/vyom/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[1.775s] byte-compiling /home/vyom/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/Ground_det.py to Ground_det.cpython-310.pyc
+[1.780s] running install_data
+[1.780s] running install_egg_info
+[1.783s] removing '/home/vyom/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info' (and everything under it)
+[1.784s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/vyom/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info
+[1.785s] running install_scripts
+[1.812s] Installing binary_im script to /home/vyom/ros2_ws/install/py_pubsub/lib/py_pubsub
+[1.812s] Installing ekf_slam script to /home/vyom/ros2_ws/install/py_pubsub/lib/py_pubsub
+[1.812s] Installing gd script to /home/vyom/ros2_ws/install/py_pubsub/lib/py_pubsub
+[1.812s] Installing localization script to /home/vyom/ros2_ws/install/py_pubsub/lib/py_pubsub
+[1.812s] Installing m2C script to /home/vyom/ros2_ws/install/py_pubsub/lib/py_pubsub
+[1.813s] Installing slam_d script to /home/vyom/ros2_ws/install/py_pubsub/lib/py_pubsub
+[1.813s] writing list of installed files to '/home/vyom/ros2_ws/build/py_pubsub/install.log'

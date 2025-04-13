@@ -1,0 +1,30 @@
+[0.895s] Invoking command in '/home/vyom/ros2_ws/src/py_pubsub': PYTHONPATH=/home/vyom/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vyom/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/vyom/ros2_ws/build/py_pubsub/build install --record /home/vyom/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed install_data
+[1.224s] running egg_info
+[1.224s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[1.224s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[1.225s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[1.225s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[1.225s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[1.232s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[1.233s] adding license file 'LICENSE'
+[1.233s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[1.233s] running build
+[1.234s] running build_py
+[1.234s] copying py_pubsub/Ground_det.py -> /home/vyom/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[1.234s] running install
+[1.235s] running install_lib
+[1.236s] copying /home/vyom/ros2_ws/build/py_pubsub/build/lib/py_pubsub/Ground_det.py -> /home/vyom/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[1.237s] byte-compiling /home/vyom/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/Ground_det.py to Ground_det.cpython-310.pyc
+[1.241s] running install_data
+[1.241s] running install_egg_info
+[1.244s] removing '/home/vyom/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info' (and everything under it)
+[1.244s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/vyom/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info
+[1.247s] running install_scripts
+[1.271s] Installing binary_im script to /home/vyom/ros2_ws/install/py_pubsub/lib/py_pubsub
+[1.271s] Installing ekf_slam script to /home/vyom/ros2_ws/install/py_pubsub/lib/py_pubsub
+[1.271s] Installing gd script to /home/vyom/ros2_ws/install/py_pubsub/lib/py_pubsub
+[1.271s] Installing localization script to /home/vyom/ros2_ws/install/py_pubsub/lib/py_pubsub
+[1.272s] Installing m2C script to /home/vyom/ros2_ws/install/py_pubsub/lib/py_pubsub
+[1.272s] Installing slam_d script to /home/vyom/ros2_ws/install/py_pubsub/lib/py_pubsub
+[1.272s] writing list of installed files to '/home/vyom/ros2_ws/build/py_pubsub/install.log'
+[1.300s] Invoked command in '/home/vyom/ros2_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/vyom/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vyom/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/vyom/ros2_ws/build/py_pubsub/build install --record /home/vyom/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed install_data

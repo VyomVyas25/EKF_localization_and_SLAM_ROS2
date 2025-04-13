@@ -10,7 +10,6 @@ setup.py
 ../../build/my_launch_files/my_launch_files.egg-info/zip-safe
 launch/cylin_world.launch.py
 launch/ekf_launch.py
-launch/ekf_launch_teleop.py
 my_launch_files/__init__.py
 resource/my_launch_files
 test/test_copyright.py

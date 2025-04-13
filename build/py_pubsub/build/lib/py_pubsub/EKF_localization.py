@@ -270,9 +270,11 @@ class EKFNode(Node):
                 K_t = self.sigmaBar @ Ht.T @ np.linalg.inv(S_t)
                 correction = K_t @ innovation
                 I_KH = np.eye(3) - (K_t @ Ht)
-                self.Mu = self.muBar + correction
-                self.covariance_prev = I_KH @ self.sigmaBar
+                self.muBar = self.muBar + correction
+                self.sigmaBar = I_KH @ self.sigmaBar
                 #print(f"z: {Zt}, hx: {hx}, {i}")
+            self.Mu = self.muBar
+            self.covariance_prev = self.sigmaBar
         self.m_prev_x = self.m_x
         self.m_prev_y = self.m_y
         self.m_prev_0 = self.m_0

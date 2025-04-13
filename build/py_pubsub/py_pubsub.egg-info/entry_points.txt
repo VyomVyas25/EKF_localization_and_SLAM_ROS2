@@ -1,4 +1,5 @@
 [console_scripts]
+binary_im = py_pubsub.gnd_obj_det:main
 ekf_slam = py_pubsub.EKF_slam:main
 gd = py_pubsub.Ground_det:main
 localization = py_pubsub.EKF_localization:main
