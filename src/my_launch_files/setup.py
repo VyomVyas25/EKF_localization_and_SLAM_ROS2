@@ -1,4 +1,5 @@
-from setuptools import setup
+import os
+from setuptools import find_packages, setup
 
 package_name = 'my_launch_files'
 
