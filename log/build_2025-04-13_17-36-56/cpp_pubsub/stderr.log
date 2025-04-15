@@ -1,0 +1,23 @@
+gmake[2]: *** [CMakeFiles/pstryNode.dir/build.make:76: CMakeFiles/pstryNode.dir/src/ps4_try.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:215: CMakeFiles/pstryNode.dir/all] Interrupt
+gmake[2]: *** [CMakeFiles/xbox_node.dir/build.make:76: CMakeFiles/xbox_node.dir/src/xbox_node.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:241: CMakeFiles/xbox_node.dir/all] Interrupt
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[1]: *** [CMakeFiles/Makefile2:293: CMakeFiles/finalNode.dir/all] Error 2
+gmake[2]: *** [CMakeFiles/gpsNode.dir/build.make:76: CMakeFiles/gpsNode.dir/src/gps.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/dNode.dir/build.make:76: CMakeFiles/dNode.dir/src/g2g_obs_avoidance_hardware.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:319: CMakeFiles/gpsNode.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:345: CMakeFiles/dNode.dir/all] Interrupt
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[1]: *** [CMakeFiles/Makefile2:163: CMakeFiles/tb3Node.dir/all] Error 2
+gmake[2]: *** [CMakeFiles/autoNode.dir/build.make:76: CMakeFiles/autoNode.dir/src/autonomous.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:267: CMakeFiles/autoNode.dir/all] Interrupt
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[1]: *** [CMakeFiles/Makefile2:189: CMakeFiles/ps4Node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Interrupt

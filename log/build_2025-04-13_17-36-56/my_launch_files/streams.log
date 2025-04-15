@@ -1,0 +1,25 @@
+[1.093s] Invoking command in '/home/vyom/ros2_ws/build/my_launch_files': PYTHONPATH=/home/vyom/ros2_ws/build/my_launch_files/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vyom/ros2_ws/install/my_launch_files/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vyom/ros2_ws/build/my_launch_files/build --no-deps symlink_data
+[1.443s] running develop
+[1.674s] running egg_info
+[1.674s] creating my_launch_files.egg-info
+[1.690s] writing my_launch_files.egg-info/PKG-INFO
+[1.691s] writing dependency_links to my_launch_files.egg-info/dependency_links.txt
+[1.691s] writing requirements to my_launch_files.egg-info/requires.txt
+[1.691s] writing top-level names to my_launch_files.egg-info/top_level.txt
+[1.691s] writing manifest file 'my_launch_files.egg-info/SOURCES.txt'
+[1.737s] reading manifest file 'my_launch_files.egg-info/SOURCES.txt'
+[1.737s] writing manifest file 'my_launch_files.egg-info/SOURCES.txt'
+[1.756s] running build_ext
+[1.756s] Creating /home/vyom/ros2_ws/install/my_launch_files/lib/python3.10/site-packages/my-launch-files.egg-link (link to .)
+[1.757s] 
+[1.757s] Installed /home/vyom/ros2_ws/build/my_launch_files
+[1.757s] running symlink_data
+[1.757s] creating /home/vyom/ros2_ws/install/my_launch_files/share/ament_index
+[1.757s] creating /home/vyom/ros2_ws/install/my_launch_files/share/ament_index/resource_index
+[1.757s] creating /home/vyom/ros2_ws/install/my_launch_files/share/ament_index/resource_index/packages
+[1.757s] symbolically linking /home/vyom/ros2_ws/build/my_launch_files/resource/my_launch_files -> /home/vyom/ros2_ws/install/my_launch_files/share/ament_index/resource_index/packages
+[1.757s] symbolically linking /home/vyom/ros2_ws/build/my_launch_files/package.xml -> /home/vyom/ros2_ws/install/my_launch_files/share/my_launch_files
+[1.758s] creating /home/vyom/ros2_ws/install/my_launch_files/share/my_launch_files/launch
+[1.758s] symbolically linking /home/vyom/ros2_ws/build/my_launch_files/launch/cylin_world.launch.py -> /home/vyom/ros2_ws/install/my_launch_files/share/my_launch_files/launch
+[1.758s] symbolically linking /home/vyom/ros2_ws/build/my_launch_files/launch/ekf_launch.py -> /home/vyom/ros2_ws/install/my_launch_files/share/my_launch_files/launch
+[1.811s] Invoked command in '/home/vyom/ros2_ws/build/my_launch_files' returned '0': PYTHONPATH=/home/vyom/ros2_ws/build/my_launch_files/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vyom/ros2_ws/install/my_launch_files/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vyom/ros2_ws/build/my_launch_files/build --no-deps symlink_data

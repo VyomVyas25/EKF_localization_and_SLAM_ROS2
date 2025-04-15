@@ -1,0 +1,567 @@
+[0.000000] (-) TimerEvent: {}
+[0.000375] (-) JobUnselected: {'identifier': 'my_launch_files'}
+[0.000732] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.000749] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000765] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.018141] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.019562] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.019610] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vyom/ros2_ws/build/cpp_pubsub', '--', '-j8', '-l8'], 'cwd': '/home/vyom/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'vyom'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vyom/install/examples_rclcpp_wait_set/lib:/home/vyom/install/examples_rclcpp_minimal_subscriber/lib:/home/vyom/install/examples_rclcpp_minimal_composition/lib:/home/vyom/microros_ws/install/micro_ros_agent/lib:/home/vyom/microros_ws/install/micro_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/vyom'), ('OLDPWD', '/home/vyom'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1373'), ('SYSTEMD_EXEC_PID', '1553'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '16911'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/vyom/ldlidar_ros2_ws/install:/home/vyom/ydlidar_ros2_ws/install:/home/vyom/turtlebot3_ws/install:/home/vyom/ros2_ws/install:/home/vyom/install:/home/vyom/microros_ws/install:/home/vyom/drishti_6otu(1)/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vyom'), ('JOURNAL_STREAM', '8:15511'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vyom'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models::/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/vyom/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vyom-VivoBook-ASUSLaptop-X515JAB-X515JA:@/tmp/.ICE-unix/1522,unix/vyom-VivoBook-ASUSLaptop-X515JAB-X515JA:/tmp/.ICE-unix/1522'), ('INVOCATION_ID', '41b3442546be49a3a94d973b71d7c0fd'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.355042'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/vyom/turtlebot3_ws/install/turtlebot3_simulations:/home/vyom/turtlebot3_ws/install/turtlebot3_gazebo:/home/vyom/turtlebot3_ws/install/turtlebot3_fake_node:/home/vyom/drishti_6otu(1)/install/my_bot:/home/vyom/ldlidar_ros2_ws/install/ldlidar_stl_ros2:/home/vyom/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/home/vyom/ros2_ws/install/py_pubsub:/home/vyom/ros2_ws/install/my_launch_files:/home/vyom/ros2_ws/install/cpp_pubsub:/home/vyom/install/launch_testing_examples:/home/vyom/install/examples_rclpy_pointcloud_publisher:/home/vyom/install/examples_rclpy_minimal_subscriber:/home/vyom/install/examples_rclpy_minimal_service:/home/vyom/install/examples_rclpy_minimal_publisher:/home/vyom/install/examples_rclpy_minimal_client:/home/vyom/install/examples_rclpy_minimal_action_server:/home/vyom/install/examples_rclpy_minimal_action_client:/home/vyom/install/examples_rclpy_guard_conditions:/home/vyom/install/examples_rclpy_executors:/home/vyom/install/examples_rclcpp_wait_set:/home/vyom/install/examples_rclcpp_multithreaded_executor:/home/vyom/install/examples_rclcpp_minimal_timer:/home/vyom/install/examples_rclcpp_minimal_subscriber:/home/vyom/install/examples_rclcpp_minimal_service:/home/vyom/install/examples_rclcpp_minimal_publisher:/home/vyom/install/examples_rclcpp_minimal_composition:/home/vyom/install/examples_rclcpp_minimal_client:/home/vyom/install/examples_rclcpp_minimal_action_server:/home/vyom/install/examples_rclcpp_minimal_action_client:/home/vyom/install/examples_rclcpp_cbg_executor:/home/vyom/install/examples_rclcpp_async_client:/home/vyom/microros_ws/install/micro_ros_setup:/home/vyom/microros_ws/install/micro_ros_agent:/home/vyom/microros_ws/install/micro_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:9d4acc1c-19ba-4aed-b6a8-3abc410b50f9'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vyom/ros2_ws/build/cpp_pubsub'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins::/opt/ros/humble/lib'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vyom/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/vyom/ros2_ws/install/my_launch_files/lib/python3.10/site-packages:/home/vyom/install/launch_testing_examples/lib/python3.10/site-packages:/home/vyom/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/vyom/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/vyom/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/vyom/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/vyom/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/vyom/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/vyom/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/vyom/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/vyom/install/examples_rclpy_executors/lib/python3.10/site-packages:/home/vyom/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vyom/turtlebot3_ws/install/turtlebot3_simulations:/home/vyom/turtlebot3_ws/install/turtlebot3_gazebo:/home/vyom/turtlebot3_ws/install/turtlebot3_fake_node:/home/vyom/drishti_6otu(1)/install/my_bot:/home/vyom/ldlidar_ros2_ws/install/ldlidar_stl_ros2:/home/vyom/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/home/vyom/ros2_ws/install/cpp_pubsub:/home/vyom/install/examples_rclcpp_wait_set:/home/vyom/install/examples_rclcpp_multithreaded_executor:/home/vyom/install/examples_rclcpp_minimal_timer:/home/vyom/install/examples_rclcpp_minimal_subscriber:/home/vyom/install/examples_rclcpp_minimal_service:/home/vyom/install/examples_rclcpp_minimal_publisher:/home/vyom/install/examples_rclcpp_minimal_composition:/home/vyom/install/examples_rclcpp_minimal_client:/home/vyom/install/examples_rclcpp_minimal_action_server:/home/vyom/install/examples_rclcpp_minimal_action_client:/home/vyom/install/examples_rclcpp_cbg_executor:/home/vyom/install/examples_rclcpp_async_client:/home/vyom/microros_ws/install/micro_ros_setup:/home/vyom/microros_ws/install/micro_ros_agent:/home/vyom/microros_ws/install/micro_ros_msgs:/home/vyom/ros2_ws/install/py_pubsub:/home/vyom/ros2_ws/install/my_launch_files:/home/vyom/install/launch_testing_examples:/home/vyom/install/examples_rclpy_pointcloud_publisher:/home/vyom/install/examples_rclpy_minimal_subscriber:/home/vyom/install/examples_rclpy_minimal_service:/home/vyom/install/examples_rclpy_minimal_publisher:/home/vyom/install/examples_rclpy_minimal_client:/home/vyom/install/examples_rclpy_minimal_action_server:/home/vyom/install/examples_rclpy_minimal_action_client:/home/vyom/install/examples_rclpy_guard_conditions:/home/vyom/install/examples_rclpy_executors:/opt/ros/humble')]), 'shell': False}
+[0.099865] (-) TimerEvent: {}
+[0.149018] (cpp_pubsub) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/autoNode.dir/src/autonomous.cpp.o\x1b[0m\n'}
+[0.149437] (cpp_pubsub) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/tb3Node.dir/src/first_node.cpp.o\x1b[0m\n'}
+[0.149579] (cpp_pubsub) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/gpsNode.dir/src/gps.cpp.o\x1b[0m\n'}
+[0.149674] (cpp_pubsub) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/pstryNode.dir/src/ps4_try.cpp.o\x1b[0m\n'}
+[0.149762] (cpp_pubsub) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/finalNode.dir/src/g2g_obs_avoidance_software.cpp.o\x1b[0m\n'}
+[0.149852] (cpp_pubsub) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/dNode.dir/src/g2g_obs_avoidance_hardware.cpp.o\x1b[0m\n'}
+[0.150014] (cpp_pubsub) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/xbox_node.dir/src/xbox_node.cpp.o\x1b[0m\n'}
+[0.150197] (cpp_pubsub) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/ps4Node.dir/src/ps4.cpp.o\x1b[0m\n'}
+[0.199992] (-) TimerEvent: {}
+[0.301189] (-) TimerEvent: {}
+[0.401582] (-) TimerEvent: {}
+[0.501929] (-) TimerEvent: {}
+[0.602299] (-) TimerEvent: {}
+[0.705311] (-) TimerEvent: {}
+[0.805700] (-) TimerEvent: {}
+[0.906080] (-) TimerEvent: {}
+[1.006480] (-) TimerEvent: {}
+[1.106887] (-) TimerEvent: {}
+[1.207310] (-) TimerEvent: {}
+[1.307726] (-) TimerEvent: {}
+[1.408126] (-) TimerEvent: {}
+[1.511499] (-) TimerEvent: {}
+[1.611944] (-) TimerEvent: {}
+[1.712324] (-) TimerEvent: {}
+[1.812777] (-) TimerEvent: {}
+[1.913248] (-) TimerEvent: {}
+[2.013658] (-) TimerEvent: {}
+[2.114095] (-) TimerEvent: {}
+[2.218309] (-) TimerEvent: {}
+[2.318703] (-) TimerEvent: {}
+[2.419108] (-) TimerEvent: {}
+[2.519524] (-) TimerEvent: {}
+[2.619960] (-) TimerEvent: {}
+[2.720439] (-) TimerEvent: {}
+[2.820898] (-) TimerEvent: {}
+[2.921312] (-) TimerEvent: {}
+[3.021765] (-) TimerEvent: {}
+[3.122194] (-) TimerEvent: {}
+[3.224310] (-) TimerEvent: {}
+[3.324709] (-) TimerEvent: {}
+[3.425114] (-) TimerEvent: {}
+[3.525524] (-) TimerEvent: {}
+[3.625914] (-) TimerEvent: {}
+[3.728303] (-) TimerEvent: {}
+[3.828702] (-) TimerEvent: {}
+[3.929101] (-) TimerEvent: {}
+[4.029521] (-) TimerEvent: {}
+[4.129957] (-) TimerEvent: {}
+[4.232314] (-) TimerEvent: {}
+[4.332735] (-) TimerEvent: {}
+[4.433192] (-) TimerEvent: {}
+[4.533645] (-) TimerEvent: {}
+[4.634127] (-) TimerEvent: {}
+[4.737331] (-) TimerEvent: {}
+[4.837751] (-) TimerEvent: {}
+[4.938188] (-) TimerEvent: {}
+[5.038634] (-) TimerEvent: {}
+[5.139051] (-) TimerEvent: {}
+[5.239480] (-) TimerEvent: {}
+[5.339889] (-) TimerEvent: {}
+[5.443306] (-) TimerEvent: {}
+[5.543715] (-) TimerEvent: {}
+[5.644142] (-) TimerEvent: {}
+[5.744561] (-) TimerEvent: {}
+[5.844981] (-) TimerEvent: {}
+[5.945398] (-) TimerEvent: {}
+[6.045801] (-) TimerEvent: {}
+[6.146234] (-) TimerEvent: {}
+[6.248312] (-) TimerEvent: {}
+[6.348760] (-) TimerEvent: {}
+[6.449175] (-) TimerEvent: {}
+[6.549599] (-) TimerEvent: {}
+[6.650002] (-) TimerEvent: {}
+[6.752313] (-) TimerEvent: {}
+[6.852733] (-) TimerEvent: {}
+[6.953158] (-) TimerEvent: {}
+[7.053592] (-) TimerEvent: {}
+[7.154033] (-) TimerEvent: {}
+[7.255350] (-) TimerEvent: {}
+[7.355819] (-) TimerEvent: {}
+[7.457316] (-) TimerEvent: {}
+[7.557726] (-) TimerEvent: {}
+[7.658151] (-) TimerEvent: {}
+[7.760353] (-) TimerEvent: {}
+[7.861321] (-) TimerEvent: {}
+[7.961795] (-) TimerEvent: {}
+[8.063519] (-) TimerEvent: {}
+[8.164001] (-) TimerEvent: {}
+[8.264458] (-) TimerEvent: {}
+[8.368327] (-) TimerEvent: {}
+[8.468776] (-) TimerEvent: {}
+[8.569256] (-) TimerEvent: {}
+[8.669677] (-) TimerEvent: {}
+[8.770097] (-) TimerEvent: {}
+[8.870556] (-) TimerEvent: {}
+[8.971012] (-) TimerEvent: {}
+[9.071448] (-) TimerEvent: {}
+[9.173321] (-) TimerEvent: {}
+[9.273761] (-) TimerEvent: {}
+[9.374186] (-) TimerEvent: {}
+[9.474628] (-) TimerEvent: {}
+[9.577308] (-) TimerEvent: {}
+[9.677726] (-) TimerEvent: {}
+[9.778142] (-) TimerEvent: {}
+[9.878598] (-) TimerEvent: {}
+[9.979022] (-) TimerEvent: {}
+[10.079442] (-) TimerEvent: {}
+[10.182322] (-) TimerEvent: {}
+[10.282743] (-) TimerEvent: {}
+[10.383191] (-) TimerEvent: {}
+[10.483622] (-) TimerEvent: {}
+[10.584044] (-) TimerEvent: {}
+[10.686062] (-) TimerEvent: {}
+[10.788364] (-) TimerEvent: {}
+[10.889044] (-) TimerEvent: {}
+[10.989715] (-) TimerEvent: {}
+[11.090317] (-) TimerEvent: {}
+[11.195319] (-) TimerEvent: {}
+[11.295926] (-) TimerEvent: {}
+[11.396314] (-) TimerEvent: {}
+[11.496695] (-) TimerEvent: {}
+[11.597093] (-) TimerEvent: {}
+[11.697506] (-) TimerEvent: {}
+[11.797938] (-) TimerEvent: {}
+[11.898356] (-) TimerEvent: {}
+[12.002324] (-) TimerEvent: {}
+[12.102724] (-) TimerEvent: {}
+[12.203276] (-) TimerEvent: {}
+[12.303810] (-) TimerEvent: {}
+[12.404375] (-) TimerEvent: {}
+[12.504811] (-) TimerEvent: {}
+[12.605257] (-) TimerEvent: {}
+[12.705813] (-) TimerEvent: {}
+[12.806383] (-) TimerEvent: {}
+[12.909571] (-) TimerEvent: {}
+[13.009972] (-) TimerEvent: {}
+[13.110375] (-) TimerEvent: {}
+[13.210772] (-) TimerEvent: {}
+[13.311184] (-) TimerEvent: {}
+[13.411612] (-) TimerEvent: {}
+[13.512003] (-) TimerEvent: {}
+[13.614314] (-) TimerEvent: {}
+[13.714869] (-) TimerEvent: {}
+[13.815432] (-) TimerEvent: {}
+[13.915871] (-) TimerEvent: {}
+[14.016321] (-) TimerEvent: {}
+[14.119524] (-) TimerEvent: {}
+[14.219957] (-) TimerEvent: {}
+[14.320390] (-) TimerEvent: {}
+[14.420767] (-) TimerEvent: {}
+[14.521160] (-) TimerEvent: {}
+[14.621576] (-) TimerEvent: {}
+[14.722004] (-) TimerEvent: {}
+[14.823493] (-) TimerEvent: {}
+[14.923942] (-) TimerEvent: {}
+[15.027303] (-) TimerEvent: {}
+[15.127714] (-) TimerEvent: {}
+[15.228118] (-) TimerEvent: {}
+[15.328562] (-) TimerEvent: {}
+[15.428976] (-) TimerEvent: {}
+[15.529898] (-) TimerEvent: {}
+[15.631166] (-) TimerEvent: {}
+[15.731665] (-) TimerEvent: {}
+[15.835576] (-) TimerEvent: {}
+[15.936185] (-) TimerEvent: {}
+[16.036878] (-) TimerEvent: {}
+[16.137559] (-) TimerEvent: {}
+[16.238333] (-) TimerEvent: {}
+[16.342320] (-) TimerEvent: {}
+[16.442913] (-) TimerEvent: {}
+[16.543340] (-) TimerEvent: {}
+[16.643795] (-) TimerEvent: {}
+[16.744363] (-) TimerEvent: {}
+[16.844767] (-) TimerEvent: {}
+[16.945207] (-) TimerEvent: {}
+[17.045660] (-) TimerEvent: {}
+[17.146060] (-) TimerEvent: {}
+[17.246666] (-) TimerEvent: {}
+[17.348519] (-) TimerEvent: {}
+[17.448929] (-) TimerEvent: {}
+[17.549313] (-) TimerEvent: {}
+[17.653309] (-) TimerEvent: {}
+[17.753772] (-) TimerEvent: {}
+[17.844339] (cpp_pubsub) StdoutLine: {'line': b'[ 32%] \x1b[32m\x1b[1mLinking CXX executable gpsNode\x1b[0m\n'}
+[17.853945] (-) TimerEvent: {}
+[17.954381] (-) TimerEvent: {}
+[18.054835] (-) TimerEvent: {}
+[18.149494] (cpp_pubsub) StdoutLine: {'line': b'[ 35%] \x1b[32m\x1b[1mLinking CXX executable ps4Node\x1b[0m\n'}
+[18.155956] (-) TimerEvent: {}
+[18.263317] (-) TimerEvent: {}
+[18.363811] (-) TimerEvent: {}
+[18.464299] (-) TimerEvent: {}
+[18.565141] (-) TimerEvent: {}
+[18.666631] (-) TimerEvent: {}
+[18.757409] (cpp_pubsub) StdoutLine: {'line': b'[ 39%] \x1b[32m\x1b[1mLinking CXX executable pstryNode\x1b[0m\n'}
+[18.766804] (-) TimerEvent: {}
+[18.771096] (cpp_pubsub) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX executable xbox_node\x1b[0m\n'}
+[18.866949] (-) TimerEvent: {}
+[18.967494] (-) TimerEvent: {}
+[19.068529] (-) TimerEvent: {}
+[19.169152] (-) TimerEvent: {}
+[19.270594] (-) TimerEvent: {}
+[19.372669] (-) TimerEvent: {}
+[19.383316] (cpp_pubsub) StdoutLine: {'line': b'[ 42%] Built target gpsNode\n'}
+[19.439108] (cpp_pubsub) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/armNode.dir/src/arm.cpp.o\x1b[0m\n'}
+[19.445610] (cpp_pubsub) StdoutLine: {'line': b'[ 46%] Built target ps4Node\n'}
+[19.472791] (-) TimerEvent: {}
+[19.488933] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ircNode.dir/src/autex.cpp.o\x1b[0m\n'}
+[19.573173] (-) TimerEvent: {}
+[19.674576] (-) TimerEvent: {}
+[19.775188] (-) TimerEvent: {}
+[19.859059] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] Built target pstryNode\n'}
+[19.875340] (-) TimerEvent: {}
+[19.878903] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] Built target xbox_node\n'}
+[19.906094] (cpp_pubsub) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/IrcNode.dir/src/autex_hardware.cpp.o\x1b[0m\n'}
+[19.923042] (cpp_pubsub) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/CamNode.dir/src/3d_cam.cpp.o\x1b[0m\n'}
+[19.975477] (-) TimerEvent: {}
+[20.076327] (-) TimerEvent: {}
+[20.177495] (-) TimerEvent: {}
+[20.278356] (-) TimerEvent: {}
+[20.387319] (-) TimerEvent: {}
+[20.487914] (-) TimerEvent: {}
+[20.588386] (-) TimerEvent: {}
+[20.688971] (-) TimerEvent: {}
+[20.789583] (-) TimerEvent: {}
+[20.890201] (-) TimerEvent: {}
+[20.990788] (-) TimerEvent: {}
+[21.094623] (-) TimerEvent: {}
+[21.195245] (-) TimerEvent: {}
+[21.295822] (-) TimerEvent: {}
+[21.396455] (-) TimerEvent: {}
+[21.497030] (-) TimerEvent: {}
+[21.597655] (-) TimerEvent: {}
+[21.698060] (-) TimerEvent: {}
+[21.802337] (-) TimerEvent: {}
+[21.902769] (-) TimerEvent: {}
+[22.003199] (-) TimerEvent: {}
+[22.103634] (-) TimerEvent: {}
+[22.204052] (-) TimerEvent: {}
+[22.304530] (-) TimerEvent: {}
+[22.404970] (-) TimerEvent: {}
+[22.505443] (-) TimerEvent: {}
+[22.605891] (-) TimerEvent: {}
+[22.706319] (-) TimerEvent: {}
+[22.810308] (-) TimerEvent: {}
+[22.910772] (-) TimerEvent: {}
+[23.011229] (-) TimerEvent: {}
+[23.111663] (-) TimerEvent: {}
+[23.212091] (-) TimerEvent: {}
+[23.312548] (-) TimerEvent: {}
+[23.412996] (-) TimerEvent: {}
+[23.513619] (-) TimerEvent: {}
+[23.614228] (-) TimerEvent: {}
+[23.718611] (-) TimerEvent: {}
+[23.819242] (-) TimerEvent: {}
+[23.919823] (-) TimerEvent: {}
+[24.020410] (-) TimerEvent: {}
+[24.121013] (-) TimerEvent: {}
+[24.221610] (-) TimerEvent: {}
+[24.322164] (-) TimerEvent: {}
+[24.422603] (-) TimerEvent: {}
+[24.523054] (-) TimerEvent: {}
+[24.627458] (-) TimerEvent: {}
+[24.727894] (-) TimerEvent: {}
+[24.828312] (-) TimerEvent: {}
+[24.928907] (-) TimerEvent: {}
+[25.029468] (-) TimerEvent: {}
+[25.129907] (-) TimerEvent: {}
+[25.230363] (-) TimerEvent: {}
+[25.330795] (-) TimerEvent: {}
+[25.431211] (-) TimerEvent: {}
+[25.534322] (-) TimerEvent: {}
+[25.634765] (-) TimerEvent: {}
+[25.735251] (-) TimerEvent: {}
+[25.835717] (-) TimerEvent: {}
+[25.936182] (-) TimerEvent: {}
+[26.036619] (-) TimerEvent: {}
+[26.137033] (-) TimerEvent: {}
+[26.240311] (-) TimerEvent: {}
+[26.340769] (-) TimerEvent: {}
+[26.441210] (-) TimerEvent: {}
+[26.541658] (-) TimerEvent: {}
+[26.642121] (-) TimerEvent: {}
+[26.742616] (-) TimerEvent: {}
+[26.843112] (-) TimerEvent: {}
+[26.947314] (-) TimerEvent: {}
+[27.047785] (-) TimerEvent: {}
+[27.148290] (-) TimerEvent: {}
+[27.248714] (-) TimerEvent: {}
+[27.283077] (cpp_pubsub) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX executable finalNode\x1b[0m\n'}
+[27.348860] (-) TimerEvent: {}
+[27.361286] (cpp_pubsub) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX executable autoNode\x1b[0m\n'}
+[27.449062] (-) TimerEvent: {}
+[27.553624] (-) TimerEvent: {}
+[27.654276] (-) TimerEvent: {}
+[27.719421] (cpp_pubsub) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX executable tb3Node\x1b[0m\n'}
+[27.754449] (-) TimerEvent: {}
+[27.855111] (-) TimerEvent: {}
+[27.955776] (-) TimerEvent: {}
+[28.058935] (-) TimerEvent: {}
+[28.159948] (-) TimerEvent: {}
+[28.260833] (-) TimerEvent: {}
+[28.365418] (-) TimerEvent: {}
+[28.465996] (-) TimerEvent: {}
+[28.566479] (-) TimerEvent: {}
+[28.667009] (-) TimerEvent: {}
+[28.767540] (-) TimerEvent: {}
+[28.867993] (-) TimerEvent: {}
+[28.968510] (-) TimerEvent: {}
+[29.072320] (-) TimerEvent: {}
+[29.136841] (cpp_pubsub) StdoutLine: {'line': b'[ 67%] Built target finalNode\n'}
+[29.172452] (-) TimerEvent: {}
+[29.190400] (cpp_pubsub) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/combine.dir/src/combined_drive_arm.cpp.o\x1b[0m\n'}
+[29.272586] (-) TimerEvent: {}
+[29.306877] (cpp_pubsub) StdoutLine: {'line': b'[ 71%] Built target autoNode\n'}
+[29.358300] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/lidar.dir/src/lidar.cpp.o\x1b[0m\n'}
+[29.372737] (-) TimerEvent: {}
+[29.476314] (-) TimerEvent: {}
+[29.555744] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] Built target tb3Node\n'}
+[29.576442] (-) TimerEvent: {}
+[29.676860] (-) TimerEvent: {}
+[29.777286] (-) TimerEvent: {}
+[29.877702] (-) TimerEvent: {}
+[29.978123] (-) TimerEvent: {}
+[30.078582] (-) TimerEvent: {}
+[30.182319] (-) TimerEvent: {}
+[30.282724] (-) TimerEvent: {}
+[30.383137] (-) TimerEvent: {}
+[30.483571] (-) TimerEvent: {}
+[30.584008] (-) TimerEvent: {}
+[30.684578] (-) TimerEvent: {}
+[30.785046] (-) TimerEvent: {}
+[30.885490] (-) TimerEvent: {}
+[30.986347] (-) TimerEvent: {}
+[31.062545] (cpp_pubsub) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX executable armNode\x1b[0m\n'}
+[31.086476] (-) TimerEvent: {}
+[31.186954] (-) TimerEvent: {}
+[31.287605] (-) TimerEvent: {}
+[31.388069] (-) TimerEvent: {}
+[31.488549] (-) TimerEvent: {}
+[31.589034] (-) TimerEvent: {}
+[31.591071] (cpp_pubsub) StdoutLine: {'line': b'[ 78%] Built target armNode\n'}
+[31.689171] (-) TimerEvent: {}
+[31.789618] (-) TimerEvent: {}
+[31.890071] (-) TimerEvent: {}
+[31.990506] (-) TimerEvent: {}
+[32.090938] (-) TimerEvent: {}
+[32.191326] (-) TimerEvent: {}
+[32.291765] (-) TimerEvent: {}
+[32.392204] (-) TimerEvent: {}
+[32.492705] (-) TimerEvent: {}
+[32.593167] (-) TimerEvent: {}
+[32.693627] (-) TimerEvent: {}
+[32.794085] (-) TimerEvent: {}
+[32.894549] (-) TimerEvent: {}
+[32.994986] (-) TimerEvent: {}
+[33.095544] (-) TimerEvent: {}
+[33.196020] (-) TimerEvent: {}
+[33.296468] (-) TimerEvent: {}
+[33.396887] (-) TimerEvent: {}
+[33.497323] (-) TimerEvent: {}
+[33.597779] (-) TimerEvent: {}
+[33.698204] (-) TimerEvent: {}
+[33.804083] (-) TimerEvent: {}
+[33.887432] (cpp_pubsub) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking CXX executable dNode\x1b[0m\n'}
+[33.904245] (-) TimerEvent: {}
+[34.004818] (-) TimerEvent: {}
+[34.105280] (-) TimerEvent: {}
+[34.205805] (-) TimerEvent: {}
+[34.307606] (-) TimerEvent: {}
+[34.408183] (-) TimerEvent: {}
+[34.508714] (-) TimerEvent: {}
+[34.609268] (-) TimerEvent: {}
+[34.709788] (-) TimerEvent: {}
+[34.810226] (-) TimerEvent: {}
+[34.910618] (-) TimerEvent: {}
+[35.010988] (-) TimerEvent: {}
+[35.111415] (-) TimerEvent: {}
+[35.211822] (-) TimerEvent: {}
+[35.312237] (-) TimerEvent: {}
+[35.412645] (-) TimerEvent: {}
+[35.513044] (-) TimerEvent: {}
+[35.613487] (-) TimerEvent: {}
+[35.713905] (-) TimerEvent: {}
+[35.783469] (cpp_pubsub) StdoutLine: {'line': b'[ 82%] Built target dNode\n'}
+[35.814047] (-) TimerEvent: {}
+[35.914468] (-) TimerEvent: {}
+[36.014870] (-) TimerEvent: {}
+[36.115295] (-) TimerEvent: {}
+[36.215701] (-) TimerEvent: {}
+[36.316102] (-) TimerEvent: {}
+[36.416516] (-) TimerEvent: {}
+[36.516912] (-) TimerEvent: {}
+[36.617326] (-) TimerEvent: {}
+[36.717732] (-) TimerEvent: {}
+[36.818165] (-) TimerEvent: {}
+[36.918618] (-) TimerEvent: {}
+[37.019030] (-) TimerEvent: {}
+[37.119447] (-) TimerEvent: {}
+[37.219880] (-) TimerEvent: {}
+[37.320308] (-) TimerEvent: {}
+[37.420704] (-) TimerEvent: {}
+[37.521119] (-) TimerEvent: {}
+[37.621556] (-) TimerEvent: {}
+[37.721985] (-) TimerEvent: {}
+[37.822437] (-) TimerEvent: {}
+[37.922863] (-) TimerEvent: {}
+[38.023291] (-) TimerEvent: {}
+[38.123707] (-) TimerEvent: {}
+[38.224133] (-) TimerEvent: {}
+[38.324563] (-) TimerEvent: {}
+[38.424990] (-) TimerEvent: {}
+[38.525414] (-) TimerEvent: {}
+[38.625876] (-) TimerEvent: {}
+[38.726390] (-) TimerEvent: {}
+[38.826846] (-) TimerEvent: {}
+[38.927287] (-) TimerEvent: {}
+[39.027685] (-) TimerEvent: {}
+[39.128086] (-) TimerEvent: {}
+[39.228515] (-) TimerEvent: {}
+[39.328923] (-) TimerEvent: {}
+[39.429326] (-) TimerEvent: {}
+[39.529737] (-) TimerEvent: {}
+[39.630141] (-) TimerEvent: {}
+[39.730575] (-) TimerEvent: {}
+[39.830978] (-) TimerEvent: {}
+[39.931440] (-) TimerEvent: {}
+[40.031844] (-) TimerEvent: {}
+[40.132245] (-) TimerEvent: {}
+[40.232657] (-) TimerEvent: {}
+[40.260096] (cpp_pubsub) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX executable CamNode\x1b[0m\n'}
+[40.332811] (-) TimerEvent: {}
+[40.433282] (-) TimerEvent: {}
+[40.533780] (-) TimerEvent: {}
+[40.634292] (-) TimerEvent: {}
+[40.734758] (-) TimerEvent: {}
+[40.835158] (-) TimerEvent: {}
+[40.935645] (-) TimerEvent: {}
+[41.036065] (-) TimerEvent: {}
+[41.136564] (-) TimerEvent: {}
+[41.236996] (-) TimerEvent: {}
+[41.258723] (cpp_pubsub) StdoutLine: {'line': b'[ 85%] Built target CamNode\n'}
+[41.337126] (-) TimerEvent: {}
+[41.437528] (-) TimerEvent: {}
+[41.537945] (-) TimerEvent: {}
+[41.638394] (-) TimerEvent: {}
+[41.738809] (-) TimerEvent: {}
+[41.839208] (-) TimerEvent: {}
+[41.904043] (cpp_pubsub) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking CXX executable IrcNode\x1b[0m\n'}
+[41.939313] (-) TimerEvent: {}
+[42.039702] (-) TimerEvent: {}
+[42.140122] (-) TimerEvent: {}
+[42.240630] (-) TimerEvent: {}
+[42.341057] (-) TimerEvent: {}
+[42.441491] (-) TimerEvent: {}
+[42.541875] (-) TimerEvent: {}
+[42.642277] (-) TimerEvent: {}
+[42.742680] (-) TimerEvent: {}
+[42.843104] (-) TimerEvent: {}
+[42.876480] (cpp_pubsub) StdoutLine: {'line': b'[ 89%] Built target IrcNode\n'}
+[42.943259] (-) TimerEvent: {}
+[43.043656] (-) TimerEvent: {}
+[43.144050] (-) TimerEvent: {}
+[43.244340] (-) TimerEvent: {}
+[43.344663] (-) TimerEvent: {}
+[43.445022] (-) TimerEvent: {}
+[43.545345] (-) TimerEvent: {}
+[43.645719] (-) TimerEvent: {}
+[43.746040] (-) TimerEvent: {}
+[43.793445] (cpp_pubsub) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable combine\x1b[0m\n'}
+[43.846167] (-) TimerEvent: {}
+[43.946568] (-) TimerEvent: {}
+[44.046998] (-) TimerEvent: {}
+[44.147398] (-) TimerEvent: {}
+[44.247741] (-) TimerEvent: {}
+[44.348129] (-) TimerEvent: {}
+[44.448501] (-) TimerEvent: {}
+[44.464360] (cpp_pubsub) StdoutLine: {'line': b'[ 92%] Built target combine\n'}
+[44.548638] (-) TimerEvent: {}
+[44.648988] (-) TimerEvent: {}
+[44.749292] (-) TimerEvent: {}
+[44.849622] (-) TimerEvent: {}
+[44.912457] (cpp_pubsub) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX executable lidar\x1b[0m\n'}
+[44.949778] (-) TimerEvent: {}
+[45.050125] (-) TimerEvent: {}
+[45.150504] (-) TimerEvent: {}
+[45.250833] (-) TimerEvent: {}
+[45.351165] (-) TimerEvent: {}
+[45.451490] (-) TimerEvent: {}
+[45.483094] (cpp_pubsub) StdoutLine: {'line': b'[ 96%] Built target lidar\n'}
+[45.551647] (-) TimerEvent: {}
+[45.651977] (-) TimerEvent: {}
+[45.752288] (-) TimerEvent: {}
+[45.852634] (-) TimerEvent: {}
+[45.952965] (-) TimerEvent: {}
+[46.053315] (-) TimerEvent: {}
+[46.153650] (-) TimerEvent: {}
+[46.253980] (-) TimerEvent: {}
+[46.354351] (-) TimerEvent: {}
+[46.454687] (-) TimerEvent: {}
+[46.555019] (-) TimerEvent: {}
+[46.655351] (-) TimerEvent: {}
+[46.755684] (-) TimerEvent: {}
+[46.856032] (-) TimerEvent: {}
+[46.956415] (-) TimerEvent: {}
+[47.056746] (-) TimerEvent: {}
+[47.157052] (-) TimerEvent: {}
+[47.239664] (cpp_pubsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ircNode\x1b[0m\n'}
+[47.257171] (-) TimerEvent: {}
+[47.357428] (-) TimerEvent: {}
+[47.457754] (-) TimerEvent: {}
+[47.558087] (-) TimerEvent: {}
+[47.658378] (-) TimerEvent: {}
+[47.758696] (-) TimerEvent: {}
+[47.859009] (-) TimerEvent: {}
+[47.959331] (-) TimerEvent: {}
+[48.059669] (-) TimerEvent: {}
+[48.073334] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target ircNode\n'}
+[48.085969] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[48.087173] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[48.097424] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vyom/ros2_ws/build/cpp_pubsub'], 'cwd': '/home/vyom/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'vyom'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vyom/install/examples_rclcpp_wait_set/lib:/home/vyom/install/examples_rclcpp_minimal_subscriber/lib:/home/vyom/install/examples_rclcpp_minimal_composition/lib:/home/vyom/microros_ws/install/micro_ros_agent/lib:/home/vyom/microros_ws/install/micro_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/vyom'), ('OLDPWD', '/home/vyom'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1373'), ('SYSTEMD_EXEC_PID', '1553'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '16911'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/vyom/ldlidar_ros2_ws/install:/home/vyom/ydlidar_ros2_ws/install:/home/vyom/turtlebot3_ws/install:/home/vyom/ros2_ws/install:/home/vyom/install:/home/vyom/microros_ws/install:/home/vyom/drishti_6otu(1)/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vyom'), ('JOURNAL_STREAM', '8:15511'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vyom'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models::/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/vyom/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vyom-VivoBook-ASUSLaptop-X515JAB-X515JA:@/tmp/.ICE-unix/1522,unix/vyom-VivoBook-ASUSLaptop-X515JAB-X515JA:/tmp/.ICE-unix/1522'), ('INVOCATION_ID', '41b3442546be49a3a94d973b71d7c0fd'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.355042'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/vyom/turtlebot3_ws/install/turtlebot3_simulations:/home/vyom/turtlebot3_ws/install/turtlebot3_gazebo:/home/vyom/turtlebot3_ws/install/turtlebot3_fake_node:/home/vyom/drishti_6otu(1)/install/my_bot:/home/vyom/ldlidar_ros2_ws/install/ldlidar_stl_ros2:/home/vyom/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/home/vyom/ros2_ws/install/py_pubsub:/home/vyom/ros2_ws/install/my_launch_files:/home/vyom/ros2_ws/install/cpp_pubsub:/home/vyom/install/launch_testing_examples:/home/vyom/install/examples_rclpy_pointcloud_publisher:/home/vyom/install/examples_rclpy_minimal_subscriber:/home/vyom/install/examples_rclpy_minimal_service:/home/vyom/install/examples_rclpy_minimal_publisher:/home/vyom/install/examples_rclpy_minimal_client:/home/vyom/install/examples_rclpy_minimal_action_server:/home/vyom/install/examples_rclpy_minimal_action_client:/home/vyom/install/examples_rclpy_guard_conditions:/home/vyom/install/examples_rclpy_executors:/home/vyom/install/examples_rclcpp_wait_set:/home/vyom/install/examples_rclcpp_multithreaded_executor:/home/vyom/install/examples_rclcpp_minimal_timer:/home/vyom/install/examples_rclcpp_minimal_subscriber:/home/vyom/install/examples_rclcpp_minimal_service:/home/vyom/install/examples_rclcpp_minimal_publisher:/home/vyom/install/examples_rclcpp_minimal_composition:/home/vyom/install/examples_rclcpp_minimal_client:/home/vyom/install/examples_rclcpp_minimal_action_server:/home/vyom/install/examples_rclcpp_minimal_action_client:/home/vyom/install/examples_rclcpp_cbg_executor:/home/vyom/install/examples_rclcpp_async_client:/home/vyom/microros_ws/install/micro_ros_setup:/home/vyom/microros_ws/install/micro_ros_agent:/home/vyom/microros_ws/install/micro_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:9d4acc1c-19ba-4aed-b6a8-3abc410b50f9'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vyom/ros2_ws/build/cpp_pubsub'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins::/opt/ros/humble/lib'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vyom/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/vyom/ros2_ws/install/my_launch_files/lib/python3.10/site-packages:/home/vyom/install/launch_testing_examples/lib/python3.10/site-packages:/home/vyom/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/vyom/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/vyom/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/vyom/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/vyom/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/vyom/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/vyom/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/vyom/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/vyom/install/examples_rclpy_executors/lib/python3.10/site-packages:/home/vyom/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vyom/turtlebot3_ws/install/turtlebot3_simulations:/home/vyom/turtlebot3_ws/install/turtlebot3_gazebo:/home/vyom/turtlebot3_ws/install/turtlebot3_fake_node:/home/vyom/drishti_6otu(1)/install/my_bot:/home/vyom/ldlidar_ros2_ws/install/ldlidar_stl_ros2:/home/vyom/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/home/vyom/ros2_ws/install/cpp_pubsub:/home/vyom/install/examples_rclcpp_wait_set:/home/vyom/install/examples_rclcpp_multithreaded_executor:/home/vyom/install/examples_rclcpp_minimal_timer:/home/vyom/install/examples_rclcpp_minimal_subscriber:/home/vyom/install/examples_rclcpp_minimal_service:/home/vyom/install/examples_rclcpp_minimal_publisher:/home/vyom/install/examples_rclcpp_minimal_composition:/home/vyom/install/examples_rclcpp_minimal_client:/home/vyom/install/examples_rclcpp_minimal_action_server:/home/vyom/install/examples_rclcpp_minimal_action_client:/home/vyom/install/examples_rclcpp_cbg_executor:/home/vyom/install/examples_rclcpp_async_client:/home/vyom/microros_ws/install/micro_ros_setup:/home/vyom/microros_ws/install/micro_ros_agent:/home/vyom/microros_ws/install/micro_ros_msgs:/home/vyom/ros2_ws/install/py_pubsub:/home/vyom/ros2_ws/install/my_launch_files:/home/vyom/install/launch_testing_examples:/home/vyom/install/examples_rclpy_pointcloud_publisher:/home/vyom/install/examples_rclpy_minimal_subscriber:/home/vyom/install/examples_rclpy_minimal_service:/home/vyom/install/examples_rclpy_minimal_publisher:/home/vyom/install/examples_rclpy_minimal_client:/home/vyom/install/examples_rclpy_minimal_action_server:/home/vyom/install/examples_rclpy_minimal_action_client:/home/vyom/install/examples_rclpy_guard_conditions:/home/vyom/install/examples_rclpy_executors:/opt/ros/humble')]), 'shell': False}
+[48.105227] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[48.106061] (cpp_pubsub) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[48.106614] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/vyom/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/xbox_node\n'}
+[48.114871] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/vyom/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/finalNode\n'}
+[48.122968] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/vyom/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/tb3Node\n'}
+[48.130997] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/vyom/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/ps4Node\n'}
+[48.138859] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/vyom/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/pstryNode\n'}
+[48.146993] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/vyom/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/autoNode\n'}
+[48.155006] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/vyom/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/gpsNode\n'}
+[48.159778] (-) TimerEvent: {}
+[48.163000] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/vyom/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/dNode\n'}
+[48.171077] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/vyom/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/armNode\n'}
+[48.179726] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/vyom/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/ircNode\n'}
+[48.188124] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/vyom/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/IrcNode\n'}
+[48.196502] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/vyom/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/CamNode\n'}
+[48.204885] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/vyom/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/combine\n'}
+[48.213066] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/vyom/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/lidar\n'}
+[48.222161] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/vyom/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[48.230852] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/vyom/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[48.240056] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/vyom/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[48.248491] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/vyom/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv\n'}
+[48.256999] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/vyom/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[48.259879] (-) TimerEvent: {}
+[48.265368] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/vyom/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv\n'}
+[48.273813] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/vyom/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[48.282126] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/vyom/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[48.290583] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/vyom/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[48.299023] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/vyom/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv\n'}
+[48.307162] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/vyom/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv\n'}
+[48.315660] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/vyom/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[48.324039] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/vyom/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[48.332079] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/vyom/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[48.340490] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/vyom/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[48.350124] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[48.360016] (-) TimerEvent: {}
+[48.380464] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[48.380971] (-) EventReactorShutdown: {}

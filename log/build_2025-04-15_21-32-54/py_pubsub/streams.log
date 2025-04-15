@@ -1,0 +1,63 @@
+[1.419s] Invoking command in '/home/vyom/ros2_ws/build/py_pubsub': PYTHONPATH=/home/vyom/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vyom/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/vyom/ros2_ws/build/py_pubsub/build
+[1.778s] running develop
+[2.027s] Removing /home/vyom/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py-pubsub.egg-link (link to .)
+[2.073s] Invoked command in '/home/vyom/ros2_ws/build/py_pubsub' returned '0': PYTHONPATH=/home/vyom/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vyom/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/vyom/ros2_ws/build/py_pubsub/build
+[2.075s] Invoking command in '/home/vyom/ros2_ws/src/py_pubsub': PYTHONPATH=/home/vyom/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vyom/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/vyom/ros2_ws/build/py_pubsub/build install --record /home/vyom/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed install_data --force
+[2.375s] running egg_info
+[2.394s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[2.394s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[2.394s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[2.394s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[2.395s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[2.436s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[2.437s] adding license file 'LICENSE'
+[2.438s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[2.438s] running build
+[2.438s] running build_py
+[2.438s] copying py_pubsub/__init__.py -> /home/vyom/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[2.438s] copying py_pubsub/gnd_try.py -> /home/vyom/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[2.439s] copying py_pubsub/Untitled-2.py -> /home/vyom/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[2.439s] copying py_pubsub/m2C.py -> /home/vyom/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[2.439s] copying py_pubsub/Untitled-1.py -> /home/vyom/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[2.439s] copying py_pubsub/ekf_slam_d.py -> /home/vyom/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[2.439s] copying py_pubsub/EKF_slam.py -> /home/vyom/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[2.439s] copying py_pubsub/gnd_obj_det.py -> /home/vyom/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[2.440s] copying py_pubsub/EKF_localization.py -> /home/vyom/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[2.440s] copying py_pubsub/Ground_det.py -> /home/vyom/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[2.440s] running install
+[2.446s] running install_lib
+[2.465s] creating /home/vyom/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[2.465s] copying /home/vyom/ros2_ws/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/vyom/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[2.465s] copying /home/vyom/ros2_ws/build/py_pubsub/build/lib/py_pubsub/gnd_try.py -> /home/vyom/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[2.465s] copying /home/vyom/ros2_ws/build/py_pubsub/build/lib/py_pubsub/Untitled-2.py -> /home/vyom/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[2.465s] copying /home/vyom/ros2_ws/build/py_pubsub/build/lib/py_pubsub/m2C.py -> /home/vyom/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[2.465s] copying /home/vyom/ros2_ws/build/py_pubsub/build/lib/py_pubsub/Untitled-1.py -> /home/vyom/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[2.465s] copying /home/vyom/ros2_ws/build/py_pubsub/build/lib/py_pubsub/ekf_slam_d.py -> /home/vyom/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[2.466s] copying /home/vyom/ros2_ws/build/py_pubsub/build/lib/py_pubsub/EKF_slam.py -> /home/vyom/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[2.466s] copying /home/vyom/ros2_ws/build/py_pubsub/build/lib/py_pubsub/gnd_obj_det.py -> /home/vyom/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[2.466s] copying /home/vyom/ros2_ws/build/py_pubsub/build/lib/py_pubsub/EKF_localization.py -> /home/vyom/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[2.466s] copying /home/vyom/ros2_ws/build/py_pubsub/build/lib/py_pubsub/Ground_det.py -> /home/vyom/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[2.467s] byte-compiling /home/vyom/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__init__.py to __init__.cpython-310.pyc
+[2.467s] byte-compiling /home/vyom/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/gnd_try.py to gnd_try.cpython-310.pyc
+[2.469s] byte-compiling /home/vyom/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/Untitled-2.py to Untitled-2.cpython-310.pyc
+[2.472s] byte-compiling /home/vyom/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/m2C.py to m2C.cpython-310.pyc
+[2.473s] byte-compiling /home/vyom/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/Untitled-1.py to Untitled-1.cpython-310.pyc
+[2.476s] byte-compiling /home/vyom/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/ekf_slam_d.py to ekf_slam_d.cpython-310.pyc
+[2.479s] byte-compiling /home/vyom/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/EKF_slam.py to EKF_slam.cpython-310.pyc
+[2.479s] byte-compiling /home/vyom/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/gnd_obj_det.py to gnd_obj_det.cpython-310.pyc
+[2.481s] byte-compiling /home/vyom/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/EKF_localization.py to EKF_localization.cpython-310.pyc
+[2.486s] byte-compiling /home/vyom/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/Ground_det.py to Ground_det.cpython-310.pyc
+[2.489s] running install_data
+[2.489s] copying resource/py_pubsub -> /home/vyom/ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[2.489s] copying package.xml -> /home/vyom/ros2_ws/install/py_pubsub/share/py_pubsub
+[2.489s] running install_egg_info
+[2.511s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/vyom/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info
+[2.512s] running install_scripts
+[2.682s] Installing binary_im script to /home/vyom/ros2_ws/install/py_pubsub/lib/py_pubsub
+[2.682s] Installing ekf_slam script to /home/vyom/ros2_ws/install/py_pubsub/lib/py_pubsub
+[2.682s] Installing gd script to /home/vyom/ros2_ws/install/py_pubsub/lib/py_pubsub
+[2.683s] Installing localization script to /home/vyom/ros2_ws/install/py_pubsub/lib/py_pubsub
+[2.683s] Installing m2C script to /home/vyom/ros2_ws/install/py_pubsub/lib/py_pubsub
+[2.683s] Installing slam_d script to /home/vyom/ros2_ws/install/py_pubsub/lib/py_pubsub
+[2.683s] writing list of installed files to '/home/vyom/ros2_ws/build/py_pubsub/install.log'
+[2.717s] Invoked command in '/home/vyom/ros2_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/vyom/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vyom/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/vyom/ros2_ws/build/py_pubsub/build install --record /home/vyom/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed install_data --force

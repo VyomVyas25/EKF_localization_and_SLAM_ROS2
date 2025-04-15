@@ -1,0 +1,19 @@
+[1.696s] Invoking command in '/home/vyom/ros2_ws/build/my_launch_files': PYTHONPATH=/home/vyom/ros2_ws/build/my_launch_files/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vyom/ros2_ws/install/my_launch_files/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vyom/ros2_ws/build/my_launch_files/build --no-deps symlink_data --force
+[2.162s] running develop
+[2.438s] running egg_info
+[2.455s] writing my_launch_files.egg-info/PKG-INFO
+[2.456s] writing dependency_links to my_launch_files.egg-info/dependency_links.txt
+[2.456s] writing requirements to my_launch_files.egg-info/requires.txt
+[2.456s] writing top-level names to my_launch_files.egg-info/top_level.txt
+[2.506s] reading manifest file 'my_launch_files.egg-info/SOURCES.txt'
+[2.507s] writing manifest file 'my_launch_files.egg-info/SOURCES.txt'
+[2.532s] running build_ext
+[2.532s] Creating /home/vyom/ros2_ws/install/my_launch_files/lib/python3.10/site-packages/my-launch-files.egg-link (link to .)
+[2.533s] 
+[2.533s] Installed /home/vyom/ros2_ws/build/my_launch_files
+[2.533s] running symlink_data
+[2.534s] symbolically linking /home/vyom/ros2_ws/build/my_launch_files/resource/my_launch_files -> /home/vyom/ros2_ws/install/my_launch_files/share/ament_index/resource_index/packages
+[2.534s] symbolically linking /home/vyom/ros2_ws/build/my_launch_files/package.xml -> /home/vyom/ros2_ws/install/my_launch_files/share/my_launch_files
+[2.534s] symbolically linking /home/vyom/ros2_ws/build/my_launch_files/launch/cylin_world.launch.py -> /home/vyom/ros2_ws/install/my_launch_files/share/my_launch_files/launch
+[2.534s] symbolically linking /home/vyom/ros2_ws/build/my_launch_files/launch/ekf_launch.py -> /home/vyom/ros2_ws/install/my_launch_files/share/my_launch_files/launch
+[2.593s] Invoked command in '/home/vyom/ros2_ws/build/my_launch_files' returned '0': PYTHONPATH=/home/vyom/ros2_ws/build/my_launch_files/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vyom/ros2_ws/install/my_launch_files/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vyom/ros2_ws/build/my_launch_files/build --no-deps symlink_data --force

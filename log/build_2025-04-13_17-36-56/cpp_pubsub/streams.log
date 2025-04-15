@@ -1,0 +1,85 @@
+[0.037s] Invoking command in '/home/vyom/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vyom/ros2_ws/install/py_pubsub:/home/vyom/ros2_ws/install/my_launch_files:/home/vyom/install/launch_testing_examples:/home/vyom/install/examples_rclpy_pointcloud_publisher:/home/vyom/install/examples_rclpy_minimal_subscriber:/home/vyom/install/examples_rclpy_minimal_service:/home/vyom/install/examples_rclpy_minimal_publisher:/home/vyom/install/examples_rclpy_minimal_client:/home/vyom/install/examples_rclpy_minimal_action_server:/home/vyom/install/examples_rclpy_minimal_action_client:/home/vyom/install/examples_rclpy_guard_conditions:/home/vyom/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/vyom/ros2_ws/src/cpp_pubsub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vyom/ros2_ws/install/cpp_pubsub
+[0.270s] -- The C compiler identification is GNU 11.4.0
+[0.270s] -- The CXX compiler identification is GNU 11.4.0
+[0.270s] -- Detecting C compiler ABI info
+[0.270s] -- Detecting C compiler ABI info - done
+[0.270s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.270s] -- Detecting C compile features
+[0.270s] -- Detecting C compile features - done
+[0.270s] -- Detecting CXX compiler ABI info
+[0.340s] -- Detecting CXX compiler ABI info - done
+[0.352s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.353s] -- Detecting CXX compile features
+[0.353s] -- Detecting CXX compile features - done
+[0.362s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.776s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.849s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.913s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.979s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.988s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.001s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.019s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.045s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.119s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.125s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.162s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.178s] -- Looking for pthread.h
+[1.247s] -- Looking for pthread.h - found
+[1.248s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.318s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.319s] -- Found Threads: TRUE  
+[1.384s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[1.431s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.448s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.468s] -- Found nmea_msgs: 2.0.0 (/opt/ros/humble/share/nmea_msgs/cmake)
+[1.485s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.507s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[1.523s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.547s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.548s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.549s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.739s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.852s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.853s] -- Configured cppcheck include dirs: /home/vyom/ros2_ws/src/cpp_pubsub/include
+[1.853s] -- Configured cppcheck exclude dirs and/or files: 
+[1.855s] -- Added test 'lint_cmake' to check CMake code style
+[1.857s] -- Added test 'uncrustify' to check C / C++ code style
+[1.857s] -- Configured uncrustify additional arguments: 
+[1.858s] -- Added test 'xmllint' to check XML markup files
+[1.860s] -- Configuring done
+[1.913s] -- Generating done
+[1.939s] -- Build files have been written to: /home/vyom/ros2_ws/build/cpp_pubsub
+[1.949s] Invoked command in '/home/vyom/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vyom/ros2_ws/install/py_pubsub:/home/vyom/ros2_ws/install/my_launch_files:/home/vyom/install/launch_testing_examples:/home/vyom/install/examples_rclpy_pointcloud_publisher:/home/vyom/install/examples_rclpy_minimal_subscriber:/home/vyom/install/examples_rclpy_minimal_service:/home/vyom/install/examples_rclpy_minimal_publisher:/home/vyom/install/examples_rclpy_minimal_client:/home/vyom/install/examples_rclpy_minimal_action_server:/home/vyom/install/examples_rclpy_minimal_action_client:/home/vyom/install/examples_rclpy_guard_conditions:/home/vyom/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/vyom/ros2_ws/src/cpp_pubsub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vyom/ros2_ws/install/cpp_pubsub
+[1.950s] Invoking command in '/home/vyom/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vyom/ros2_ws/install/py_pubsub:/home/vyom/ros2_ws/install/my_launch_files:/home/vyom/install/launch_testing_examples:/home/vyom/install/examples_rclpy_pointcloud_publisher:/home/vyom/install/examples_rclpy_minimal_subscriber:/home/vyom/install/examples_rclpy_minimal_service:/home/vyom/install/examples_rclpy_minimal_publisher:/home/vyom/install/examples_rclpy_minimal_client:/home/vyom/install/examples_rclpy_minimal_action_server:/home/vyom/install/examples_rclpy_minimal_action_client:/home/vyom/install/examples_rclpy_guard_conditions:/home/vyom/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/vyom/ros2_ws/build/cpp_pubsub -- -j8 -l8
+[2.013s] [  3%] [32mBuilding CXX object CMakeFiles/ps4Node.dir/src/ps4.cpp.o[0m
+[2.013s] [ 14%] [32mBuilding CXX object CMakeFiles/xbox_node.dir/src/xbox_node.cpp.o[0m
+[2.013s] [ 14%] [32mBuilding CXX object CMakeFiles/pstryNode.dir/src/ps4_try.cpp.o[0m
+[2.013s] [ 21%] [32mBuilding CXX object CMakeFiles/autoNode.dir/src/autonomous.cpp.o[0m
+[2.013s] [ 21%] [32mBuilding CXX object CMakeFiles/gpsNode.dir/src/gps.cpp.o[0m
+[2.013s] [ 14%] [32mBuilding CXX object CMakeFiles/tb3Node.dir/src/first_node.cpp.o[0m
+[2.014s] [ 25%] [32mBuilding CXX object CMakeFiles/finalNode.dir/src/g2g_obs_avoidance_software.cpp.o[0m
+[2.018s] [ 28%] [32mBuilding CXX object CMakeFiles/dNode.dir/src/g2g_obs_avoidance_hardware.cpp.o[0m
+[57.595s] gmake[2]: *** [CMakeFiles/pstryNode.dir/build.make:76: CMakeFiles/pstryNode.dir/src/ps4_try.cpp.o] Interrupt
+[57.603s] gmake[1]: *** [CMakeFiles/Makefile2:215: CMakeFiles/pstryNode.dir/all] Interrupt
+[57.603s] gmake[2]: *** [CMakeFiles/xbox_node.dir/build.make:76: CMakeFiles/xbox_node.dir/src/xbox_node.cpp.o] Interrupt
+[57.603s] gmake[1]: *** [CMakeFiles/Makefile2:241: CMakeFiles/xbox_node.dir/all] Interrupt
+[57.603s] gmake[2]: *** wait: No child processes.  Stop.
+[57.603s] gmake[2]: *** Waiting for unfinished jobs....
+[57.603s] gmake[2]: *** wait: No child processes.  Stop.
+[57.604s] gmake[1]: *** [CMakeFiles/Makefile2:293: CMakeFiles/finalNode.dir/all] Error 2
+[57.604s] gmake[2]: *** [CMakeFiles/gpsNode.dir/build.make:76: CMakeFiles/gpsNode.dir/src/gps.cpp.o] Interrupt
+[57.604s] gmake[2]: *** [CMakeFiles/dNode.dir/build.make:76: CMakeFiles/dNode.dir/src/g2g_obs_avoidance_hardware.cpp.o] Interrupt
+[57.604s] gmake[1]: *** [CMakeFiles/Makefile2:319: CMakeFiles/gpsNode.dir/all] Interrupt
+[57.604s] gmake[1]: *** [CMakeFiles/Makefile2:345: CMakeFiles/dNode.dir/all] Interrupt
+[57.604s] gmake[2]: *** wait: No child processes.  Stop.
+[57.640s] gmake[2]: *** Waiting for unfinished jobs....
+[57.640s] gmake[2]: *** wait: No child processes.  Stop.
+[57.640s] gmake[1]: *** [CMakeFiles/Makefile2:163: CMakeFiles/tb3Node.dir/all] Error 2
+[57.641s] gmake[2]: *** [CMakeFiles/autoNode.dir/build.make:76: CMakeFiles/autoNode.dir/src/autonomous.cpp.o] Interrupt
+[57.641s] gmake[1]: *** [CMakeFiles/Makefile2:267: CMakeFiles/autoNode.dir/all] Interrupt
+[57.641s] gmake[2]: *** wait: No child processes.  Stop.
+[57.641s] gmake[2]: *** Waiting for unfinished jobs....
+[57.641s] gmake[2]: *** wait: No child processes.  Stop.
+[57.653s] gmake[1]: *** [CMakeFiles/Makefile2:189: CMakeFiles/ps4Node.dir/all] Error 2
+[57.654s] gmake: *** [Makefile:146: all] Interrupt
+[57.715s] Invoked command in '/home/vyom/ros2_ws/build/cpp_pubsub' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vyom/ros2_ws/install/py_pubsub:/home/vyom/ros2_ws/install/my_launch_files:/home/vyom/install/launch_testing_examples:/home/vyom/install/examples_rclpy_pointcloud_publisher:/home/vyom/install/examples_rclpy_minimal_subscriber:/home/vyom/install/examples_rclpy_minimal_service:/home/vyom/install/examples_rclpy_minimal_publisher:/home/vyom/install/examples_rclpy_minimal_client:/home/vyom/install/examples_rclpy_minimal_action_server:/home/vyom/install/examples_rclpy_minimal_action_client:/home/vyom/install/examples_rclpy_guard_conditions:/home/vyom/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/vyom/ros2_ws/build/cpp_pubsub -- -j8 -l8

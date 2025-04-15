@@ -1,0 +1,77 @@
+[0.021s] Invoking command in '/home/vyom/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vyom/ros2_ws/install/py_pubsub:/home/vyom/ros2_ws/install/my_launch_files:/home/vyom/install/launch_testing_examples:/home/vyom/install/examples_rclpy_pointcloud_publisher:/home/vyom/install/examples_rclpy_minimal_subscriber:/home/vyom/install/examples_rclpy_minimal_service:/home/vyom/install/examples_rclpy_minimal_publisher:/home/vyom/install/examples_rclpy_minimal_client:/home/vyom/install/examples_rclpy_minimal_action_server:/home/vyom/install/examples_rclpy_minimal_action_client:/home/vyom/install/examples_rclpy_guard_conditions:/home/vyom/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/vyom/ros2_ws/build/cpp_pubsub -- -j8 -l8
+[0.149s] [ 25%] [32mBuilding CXX object CMakeFiles/autoNode.dir/src/autonomous.cpp.o[0m
+[0.149s] [ 25%] [32mBuilding CXX object CMakeFiles/tb3Node.dir/src/first_node.cpp.o[0m
+[0.149s] [ 25%] [32mBuilding CXX object CMakeFiles/gpsNode.dir/src/gps.cpp.o[0m
+[0.149s] [ 25%] [32mBuilding CXX object CMakeFiles/pstryNode.dir/src/ps4_try.cpp.o[0m
+[0.149s] [ 25%] [32mBuilding CXX object CMakeFiles/finalNode.dir/src/g2g_obs_avoidance_software.cpp.o[0m
+[0.149s] [ 25%] [32mBuilding CXX object CMakeFiles/dNode.dir/src/g2g_obs_avoidance_hardware.cpp.o[0m
+[0.149s] [ 28%] [32mBuilding CXX object CMakeFiles/xbox_node.dir/src/xbox_node.cpp.o[0m
+[0.150s] [ 25%] [32mBuilding CXX object CMakeFiles/ps4Node.dir/src/ps4.cpp.o[0m
+[17.846s] [ 32%] [32m[1mLinking CXX executable gpsNode[0m
+[18.149s] [ 35%] [32m[1mLinking CXX executable ps4Node[0m
+[18.757s] [ 39%] [32m[1mLinking CXX executable pstryNode[0m
+[18.771s] [ 42%] [32m[1mLinking CXX executable xbox_node[0m
+[19.383s] [ 42%] Built target gpsNode
+[19.439s] [ 46%] [32mBuilding CXX object CMakeFiles/armNode.dir/src/arm.cpp.o[0m
+[19.445s] [ 46%] Built target ps4Node
+[19.488s] [ 50%] [32mBuilding CXX object CMakeFiles/ircNode.dir/src/autex.cpp.o[0m
+[19.859s] [ 50%] Built target pstryNode
+[19.878s] [ 50%] Built target xbox_node
+[19.906s] [ 53%] [32mBuilding CXX object CMakeFiles/IrcNode.dir/src/autex_hardware.cpp.o[0m
+[19.923s] [ 57%] [32mBuilding CXX object CMakeFiles/CamNode.dir/src/3d_cam.cpp.o[0m
+[27.283s] [ 60%] [32m[1mLinking CXX executable finalNode[0m
+[27.361s] [ 64%] [32m[1mLinking CXX executable autoNode[0m
+[27.719s] [ 67%] [32m[1mLinking CXX executable tb3Node[0m
+[29.136s] [ 67%] Built target finalNode
+[29.190s] [ 71%] [32mBuilding CXX object CMakeFiles/combine.dir/src/combined_drive_arm.cpp.o[0m
+[29.306s] [ 71%] Built target autoNode
+[29.358s] [ 75%] [32mBuilding CXX object CMakeFiles/lidar.dir/src/lidar.cpp.o[0m
+[29.555s] [ 75%] Built target tb3Node
+[31.062s] [ 78%] [32m[1mLinking CXX executable armNode[0m
+[31.591s] [ 78%] Built target armNode
+[33.887s] [ 82%] [32m[1mLinking CXX executable dNode[0m
+[35.783s] [ 82%] Built target dNode
+[40.260s] [ 85%] [32m[1mLinking CXX executable CamNode[0m
+[41.258s] [ 85%] Built target CamNode
+[41.903s] [ 89%] [32m[1mLinking CXX executable IrcNode[0m
+[42.876s] [ 89%] Built target IrcNode
+[43.793s] [ 92%] [32m[1mLinking CXX executable combine[0m
+[44.464s] [ 92%] Built target combine
+[44.912s] [ 96%] [32m[1mLinking CXX executable lidar[0m
+[45.482s] [ 96%] Built target lidar
+[47.239s] [100%] [32m[1mLinking CXX executable ircNode[0m
+[48.073s] [100%] Built target ircNode
+[48.085s] Invoked command in '/home/vyom/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vyom/ros2_ws/install/py_pubsub:/home/vyom/ros2_ws/install/my_launch_files:/home/vyom/install/launch_testing_examples:/home/vyom/install/examples_rclpy_pointcloud_publisher:/home/vyom/install/examples_rclpy_minimal_subscriber:/home/vyom/install/examples_rclpy_minimal_service:/home/vyom/install/examples_rclpy_minimal_publisher:/home/vyom/install/examples_rclpy_minimal_client:/home/vyom/install/examples_rclpy_minimal_action_server:/home/vyom/install/examples_rclpy_minimal_action_client:/home/vyom/install/examples_rclpy_guard_conditions:/home/vyom/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/vyom/ros2_ws/build/cpp_pubsub -- -j8 -l8
+[48.097s] Invoking command in '/home/vyom/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vyom/ros2_ws/install/py_pubsub:/home/vyom/ros2_ws/install/my_launch_files:/home/vyom/install/launch_testing_examples:/home/vyom/install/examples_rclpy_pointcloud_publisher:/home/vyom/install/examples_rclpy_minimal_subscriber:/home/vyom/install/examples_rclpy_minimal_service:/home/vyom/install/examples_rclpy_minimal_publisher:/home/vyom/install/examples_rclpy_minimal_client:/home/vyom/install/examples_rclpy_minimal_action_server:/home/vyom/install/examples_rclpy_minimal_action_client:/home/vyom/install/examples_rclpy_guard_conditions:/home/vyom/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/vyom/ros2_ws/build/cpp_pubsub
+[48.105s] -- Install configuration: ""
+[48.105s] -- Execute custom install script
+[48.106s] -- Symlinking: /home/vyom/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/xbox_node
+[48.114s] -- Symlinking: /home/vyom/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/finalNode
+[48.122s] -- Symlinking: /home/vyom/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/tb3Node
+[48.130s] -- Symlinking: /home/vyom/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/ps4Node
+[48.138s] -- Symlinking: /home/vyom/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/pstryNode
+[48.146s] -- Symlinking: /home/vyom/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/autoNode
+[48.154s] -- Symlinking: /home/vyom/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/gpsNode
+[48.162s] -- Symlinking: /home/vyom/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/dNode
+[48.170s] -- Symlinking: /home/vyom/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/armNode
+[48.179s] -- Symlinking: /home/vyom/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/ircNode
+[48.187s] -- Symlinking: /home/vyom/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/IrcNode
+[48.196s] -- Symlinking: /home/vyom/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/CamNode
+[48.204s] -- Symlinking: /home/vyom/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/combine
+[48.212s] -- Symlinking: /home/vyom/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/lidar
+[48.222s] -- Symlinking: /home/vyom/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[48.230s] -- Symlinking: /home/vyom/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[48.239s] -- Symlinking: /home/vyom/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[48.248s] -- Symlinking: /home/vyom/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[48.256s] -- Symlinking: /home/vyom/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[48.265s] -- Symlinking: /home/vyom/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[48.273s] -- Symlinking: /home/vyom/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[48.281s] -- Symlinking: /home/vyom/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[48.290s] -- Symlinking: /home/vyom/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[48.298s] -- Symlinking: /home/vyom/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[48.306s] -- Symlinking: /home/vyom/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[48.315s] -- Symlinking: /home/vyom/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[48.323s] -- Symlinking: /home/vyom/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[48.331s] -- Symlinking: /home/vyom/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[48.340s] -- Symlinking: /home/vyom/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[48.350s] Invoked command in '/home/vyom/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vyom/ros2_ws/install/py_pubsub:/home/vyom/ros2_ws/install/my_launch_files:/home/vyom/install/launch_testing_examples:/home/vyom/install/examples_rclpy_pointcloud_publisher:/home/vyom/install/examples_rclpy_minimal_subscriber:/home/vyom/install/examples_rclpy_minimal_service:/home/vyom/install/examples_rclpy_minimal_publisher:/home/vyom/install/examples_rclpy_minimal_client:/home/vyom/install/examples_rclpy_minimal_action_server:/home/vyom/install/examples_rclpy_minimal_action_client:/home/vyom/install/examples_rclpy_guard_conditions:/home/vyom/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/vyom/ros2_ws/build/cpp_pubsub
